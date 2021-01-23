@@ -1,0 +1,16 @@
+body {
+    font-size:10px
+}
+
+.bg {
+    margin: 0 auto;
+    height:100px;
+    width:100px;
+    background: url("../images/example.jpg") no-repeat;
+    background-size: 100px 100px;
+    opacity: 1;
+    transition: opacity 1s linear;
+}
+.bg:hover {
+    opacity: 0;
+}
